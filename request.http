@@ -13,10 +13,13 @@ GET http://localhost/products
 GET http://localhost/products/ee2287f4-d618-4a92-9046-a2e87b3cd595
 
 ###
-PUT http://localhost/products/f59a4b90-e0e6-411e-a835-c3e1eb1408ea
+PUT http://localhost/products/82d02668-f68b-4ae6-924c-7cb4fbbb0d5a
 Content-Type: application/json
 
 {
     "name" : "Pastel",
     "value": 35.99
 }
+
+###
+DELETE http://localhost/products/486f6f4f-5046-4546-9892-c4357b60b41e
